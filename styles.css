@@ -1,0 +1,72 @@
+body {
+  background-color: #fefcf8;
+}
+h1 {
+  color: black;
+  font-family: courier;
+}
+h2 {
+  color: black;
+  font-family: courier;
+}
+p {
+  color: black;
+  font-family: courier;
+}
+
+#header a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#header a:visted {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#header a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#header a:active {
+  color: black;
+  background-color: #4d5f46;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+  background-color: #6d8764;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: darkgreen;
+  text-decoration: underline;
+}
+
+#button {
+  color: black;
+  font-family: courier;
+}
+
+contact {
+  color: aqua
+}

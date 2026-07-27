@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Alin Haberle | About</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            .left {
+                padding: 20px;
+                float: left;
+                width: 40%;
+            }
+
+            .main {
+                padding: 20px;
+                float: right;
+                width: 60%;
+            }
+
+            /* Use a media query to add a break point at 800px: */
+            @media screen and (max-width: 800px) {
+                .left,
+                .main {
+                    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w3-container w3-center">
+            <h1 id="header"><a href="index.html">Alin Haberle</a></h1>
+
+            <div>
+                <div class="w3-bar">
+                    <p>
+                        <a href="about.html">About me</a> <a href="fiction.html">Fiction</a>
+                        <a href="poetry.html">Poetry</a> <a href="contact.html">Contact</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-container w3-center">
+            <h2>About</h2>
+
+            <div>
+                <div class="left">
+                    <img
+                        class="w3-image w3-round-xlarge"
+                        src="images/GLAZE_headshot2.jpeg"
+                        alt="Headshot alt: Alin is a white person with brown hair and cateye glasses who is standing near a beach."
+                        style="width: 300px" />
+                </div>
+                <div class="main" style="align-self: center">
+                    <p>
+                        I'm a writer from Brooklyn, New York.<br /><br />I write speculative fiction and fantasy. My
+                        stories are about dreams, ghosts, and old friends. I also write poetry.<br /><br />I have a BA
+                        in English with a concentration in Creative Writing from Fordham University. I'm currently in
+                        the English MA program at Hunter College.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-container w3-center">
+            <h2>FAQ</h2>
+
+            <!-- FAQ!! -->
+            <button
+                onclick="myFunction('Demo2')"
+                class="w3-button w3-hover-olive w3-border w3-block w3-left-align"
+                style="font-family: courier; background-color: transparent">
+                &#9655; Do you use AI in your writing?
+            </button>
+
+            <div id="Demo2" class="w3-hide w3-container w3-left-align">
+                <p>
+                    Nope, never! I don't use generative technology ("AI") at any stage in my writing process. I didn't
+                    use AI to create this website, either.
+                </p>
+            </div>
+
+            <button
+                onclick="myFunction('Demo1')"
+                class="w3-button w3-hover-olive w3-border w3-block w3-left-align"
+                style="font-family: courier; background-color: transparent">
+                &#9655; What books and authors have influenced your writing?
+            </button>
+
+            <div id="Demo1" class="w3-hide w3-container w3-left-align">
+                <p>
+                    Some of my favorite authors are Diana Wynne Jones, Helen Oyeyemi, Kelly Link, Agatha Christie, Ray
+                    Bradbury, T. Kingfisher, and Virginia Woolf. My favorite book of all time is
+                    <i>Howl's Moving Castle</i> by Diana Wynne Jones. (I love the movie, too!)<br /><br />I also love
+                    graphic novels: <i>Paper Girls</i> (Brian K. Vaughan, Cliff Chiang) and
+                    <i>Hobtown Mystery Stories</i> (Alexander Forbes, Kris Bertin) are two of my recent favorites.<br /><br />If
+                    you like any of these, you might like my fiction!
+                    <!--<a href="fiction.html">Check it out here.</a>-->
+                </p>
+            </div>
+
+            <button
+                onclick="myFunction('Demo3')"
+                class="w3-button w3-hover-olive w3-border w3-block w3-left-align"
+                style="font-family: courier; background-color: transparent">
+                &#9655; What are your social media handles?
+            </button>
+
+            <div id="Demo3" class="w3-hide w3-container w3-left-align">
+                <p>
+                    I'm not on any social media, sorry! Please feel free to reach out using my
+                    <a href="contact.html">contact page</a>.
+                </p>
+            </div>
+
+            <!--<button
+                onclick="myFunction('Demo4')"
+                class="w3-button w3-hover-olive w3-border w3-block w3-left-align"
+                style="font-family: courier; background-color: transparent">
+                &#9655; How do you pronounce your name?
+            </button>
+
+            <div id="Demo4" class="w3-hide w3-container w3-left-align">
+                <p>
+                    My first name is pronounced the same way as "Alan." My last name is pronounced "Ha-bur-lee".
+                </p>
+            </div>-->
+
+            <script>
+                function myFunction(id) {
+                    var x = document.getElementById(id);
+                    if (x.className.indexOf("w3-show") == -1) {
+                        x.className += " w3-show";
+                    } else {
+                        x.className = x.className.replace(" w3-show", "");
+                    }
+                }
+            </script>
+        </div>
+
+        <!-- END FAQ!!
+            
+            <p>I do not use generative technologies ("AI") in my writing. I did not use AI to create this website.</p>
+            <p>
+                I don't use social media; if you'd like to reach out to me, please use my contact page (once that's
+                available).
+            </p> -->
+
+        <div class="w3-container w3-center">
+            <p>
+                <i
+                    >Alin Haberle 2026 <a href="/index.html" class="w3-center">Home</a>
+                    <a href="credits.html">Credits</a></i
+                >
+            </p>
+        </div>
+    </body>
+</html>
