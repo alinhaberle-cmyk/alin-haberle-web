@@ -15,48 +15,56 @@ p {
 }
 
 #header a:link {
+  font-family: courier;
   color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 #header a:visted {
+  font-family: courier;
   color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
 #header a:hover {
+  font-family: courier;
   color: black;
   background-color: transparent;
   text-decoration: underline;
 }
 
 #header a:active {
+  font-family: courier;
   color: black;
   background-color: #4d5f46;
   text-decoration: none;
 }
 
 a:link {
+  font-family: courier;
   color: black;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:visited {
+  font-family: courier;
   color: black;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:hover {
+  font-family: courier;
   color: black;
   background-color: #6d8764;
   text-decoration: underline;
 }
 
 a:active {
+  font-family: courier;
   color: black;
   background-color: darkgreen;
   text-decoration: underline;
