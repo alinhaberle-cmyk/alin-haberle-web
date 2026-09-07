@@ -78,3 +78,11 @@ a:active {
 contact {
   color: aqua
 }
+
+.spoiler {
+  background-color: black
+}
+
+.spoiler:hover {
+  background-color: #fefcf8
+}
