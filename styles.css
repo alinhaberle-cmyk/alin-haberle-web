@@ -83,6 +83,6 @@ contact {
   background-color: black
 }
 
-.spoiler:hover {
+.spoiler:active {
   background-color: #fefcf8
 }
